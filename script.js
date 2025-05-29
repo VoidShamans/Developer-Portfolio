@@ -27,7 +27,7 @@ setInterval(switchImage, 5000);
 
 // Banner ---------------------------------------
 const bannerContent = document.getElementById('bannerContent');
-let messageHTML = '<span class="Contact-message"> Contact me at Clydesdaleog@gmail.com - I\'m here to help!</span>';
+let messageHTML = '<span class="contact-message"> Contact me at Clydesdaleog@gmail.com - I\'m here to help!</span>';
 let repeatedMessage = messageHTML.repeat(10);
 
 // Set the repeated messages at the content

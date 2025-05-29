@@ -389,6 +389,8 @@ nav.active {
   }
 }
 
+
+
 @keyframes scrollBanner {
   0% {
     transform: translateX(0);
