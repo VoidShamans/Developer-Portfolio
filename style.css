@@ -543,13 +543,14 @@ footer small {
 }
 
 @media only screen and (max-width: 768px) {
-  .contact {
+  #contact {
     background-image: url("../img/background-mobile/redbackground.png") !important;
-    background-color: #a00000; /* Fallback color */
+    background-color: #a00000; /* fallback */
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     background-attachment: scroll;
     -webkit-background-size: cover;
+    opacity: 1 !important; /* make sure opacity doesn't hide it */
   }
 }
