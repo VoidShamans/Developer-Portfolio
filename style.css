@@ -538,3 +538,9 @@ footer small {
     transform: rotate(0deg);
   }
 }
+
+@media (max-width: 768px) {
+  #contact {
+    background: url('../img/background mobile/redbackground.png') no-repeat center center / cover;
+  }
+}
