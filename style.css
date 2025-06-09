@@ -229,7 +229,7 @@ nav.active {
 }
 
 .about-grid div {
-  background: #7209b7;
+  background: #293241;
   display: grid;
   place-items: center;
   line-height: 1.5;
@@ -251,13 +251,13 @@ nav.active {
   font-size: 50px;
 }
 .icon-box:nth-child(2) {
-  background: #f72585;
+  background: #98c1d9;
 }
 .icon-box:nth-child(3) {
-  background: #3a0ca3;
+  background: #e0fbfc;
 }
 .icon-box:nth-child(4) {
-  background: #4361ee;
+  background: #ee6c4d;
 }
 .icon-box:nth-child(5) {
   background: #4cc9f0;
@@ -418,15 +418,16 @@ footer {
   justify-content: center;
 }
 
-.social-media-icons i {
+.social-media-icons a {
   cursor: pointer;
+  color: white;
 
   &:hover {
     transform: scale(1.1);
   }
 }
 
-.social-media-icons i:not(:first-child) {
+.social-media-icons a:not(:first-child) {
   margin-left: 10px;
 }
 
